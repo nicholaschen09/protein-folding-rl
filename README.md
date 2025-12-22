@@ -1,9 +1,5 @@
-# ============================================================================
 # PROTEIN FOLDING WITH REINFORCEMENT LEARNING - SETUP GUIDE
-# ============================================================================
-
 # INSTALLATION STEPS (Already completed in terminal):
-# ---------------------------------------------------
 # These commands were run in the TERMINAL, not in Jupyter:
 # 
 # 1. Install Miniconda:
@@ -23,8 +19,6 @@
 #
 # 4. Launch Jupyter:
 #    jupyter notebook
-#
-# ============================================================================
 
 # VERIFY INSTALLATION - Run this cell to check everything is working:
 
