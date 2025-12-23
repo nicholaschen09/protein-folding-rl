@@ -2,12 +2,12 @@
 
 export default function Blog() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#1a1a1a] font-['Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]" style={{minHeight: '100vh'}}>
       <div className="max-w-xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-4xl font-semibold text-gray-900 mb-3 tracking-tight">My Blog</h1>
-          <p className="text-lg text-gray-600 leading-relaxed">Thoughts, stories and ideas</p>
+          <h1 className="text-3xl font-bold text-[#f8f9fc] mb-3 tracking-tight">Protein Folding RL</h1>
+          <p className="text-base text-[#b2bbc5] leading-relaxed font-medium">Advances in reinforcement learning for protein structure prediction</p>
         </header>
 
         {/* Blog Posts */}
@@ -15,84 +15,78 @@ export default function Blog() {
           
           {/* Post 1 */}
           <article>
-            <h2 className="text-3xl font-medium text-gray-900 mb-3 tracking-tight leading-tight">
-              The Future of Artificial Intelligence
+            <h2 className="text-2xl font-bold text-[#f8f9fc] mb-3 tracking-tight leading-tight">
+              AlphaFold and the Protein Folding Revolution
             </h2>
-            <p className="text-gray-500 mb-4 text-sm">March 15, 2024</p>
-            
+            <p className="text-[#b2bbc5] mb-4 text-sm font-semibold">March 15, 2024</p>
 
-            
-            <div className="space-y-6 text-gray-700 leading-7">
+
+
+            <div className="space-y-4 text-[#f8f9fc] text-sm leading-6">
               <p>
-                Artificial intelligence is rapidly transforming every aspect of our lives. From healthcare 
-                to transportation, from entertainment to education, AI is reshaping how we work, learn, 
-                and interact with the world around us.
+                DeepMind's AlphaFold breakthrough in 2020 revolutionized protein structure prediction, achieving accuracy levels comparable to experimental methods. This success demonstrated the power of deep learning in solving one of biology's most challenging problems.
               </p>
               <p>
-                The recent breakthroughs in large language models and computer vision have opened up 
-                possibilities that seemed like science fiction just a few years ago. We're now seeing 
-                AI systems that can write code, create art, and even engage in complex reasoning tasks.
+                The protein folding problem involves predicting how amino acid sequences fold into three-dimensional structures. With over 200 million known proteins and countless more possible sequences, computational approaches are essential for understanding biological function.
               </p>
               <p>
-                However, with great power comes great responsibility. As we continue to develop more 
-                sophisticated AI systems, we must also address the ethical implications and ensure 
-                that these technologies benefit all of humanity.
+                AlphaFold's success opened new avenues for drug discovery, enzyme design, and understanding disease mechanisms. However, challenges remain in predicting protein dynamics, interactions, and folding pathways.
               </p>
             </div>
           </article>
 
           {/* Post 2 */}
           <article>
-            <h2 className="text-3xl font-medium text-gray-900 mb-3 tracking-tight leading-tight">
-              Building Better Web Experiences
+            <h2 className="text-2xl font-bold text-[#f8f9fc] mb-3 tracking-tight leading-tight">
+              Reinforcement Learning Approaches to Protein Folding
             </h2>
-            <p className="text-gray-500 mb-4 text-sm">March 8, 2024</p>
-            
+            <p className="text-[#b2bbc5] mb-4 text-sm font-semibold">March 8, 2024</p>
 
-            
-            <div className="space-y-6 text-gray-700 leading-7">
+
+
+            <div className="space-y-4 text-[#f8f9fc] text-sm leading-6">
               <p>
-                In today's digital landscape, creating exceptional web experiences is more important 
-                than ever. Users expect fast, responsive, and intuitive interfaces that work seamlessly 
-                across all devices.
+                While AlphaFold excels at single-structure prediction, reinforcement learning offers promising approaches for tackling dynamic aspects of protein folding. RL agents can learn folding strategies through interaction with molecular environments.
               </p>
               <p>
-                Modern web development frameworks like Next.js, React, and Vue have made it easier 
-                to build complex applications while maintaining good performance and user experience. 
-                The key is understanding when and how to use these tools effectively.
+                Current RL approaches focus on:
               </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Fragment-based assembly using Markov Decision Processes</li>
+                <li>Energy landscape exploration with policy gradients</li>
+                <li>Multi-agent coordination for complex protein complexes</li>
+                <li>Temporal abstraction for long folding trajectories</li>
+              </ul>
               <p>
-                Performance optimization, accessibility, and progressive enhancement should be at the 
-                core of every web project. By focusing on these fundamentals, we can create web 
-                experiences that truly serve our users' needs.
+                The combination of RL with physics-based simulations and neural network potentials creates powerful hybrid approaches for protein structure prediction and design.
               </p>
             </div>
           </article>
 
           {/* Post 3 */}
           <article>
-            <h2 className="text-3xl font-medium text-gray-900 mb-3 tracking-tight leading-tight">
-              The Art of Minimalism in Design
+            <h2 className="text-2xl font-bold text-[#f8f9fc] mb-3 tracking-tight leading-tight">
+              Current Challenges in Protein Folding RL
             </h2>
-            <p className="text-gray-500 mb-4 text-sm">February 28, 2024</p>
-            
+            <p className="text-[#b2bbc5] mb-4 text-sm font-semibold">February 28, 2024</p>
 
-            
-            <div className="space-y-6 text-gray-700 leading-7">
+
+
+            <div className="space-y-4 text-[#f8f9fc] text-sm leading-6">
               <p>
-                Less is often more when it comes to design. Minimalism isn't just about removing 
-                elements—it's about focusing on what truly matters and creating clarity through 
-                thoughtful simplicity.
+                Despite recent advances, several challenges remain in applying RL to protein folding:
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>High-dimensional state and action spaces</li>
+                <li>Sparse rewards in folding environments</li>
+                <li>Computational cost of molecular dynamics simulations</li>
+                <li>Generalization across protein families</li>
+              </ul>
+              <p>
+                Ongoing research focuses on developing more efficient exploration strategies, better reward functions, and scalable architectures that can handle the complexity of biological systems.
               </p>
               <p>
-                Good minimalist design requires careful attention to typography, spacing, and color. 
-                Every element should have a purpose, and there should be plenty of breathing room 
-                to let the content shine.
-              </p>
-              <p>
-                The challenge with minimalism is knowing what to remove and what to keep. It's an 
-                iterative process of refinement that ultimately leads to more impactful and 
-                memorable designs.
+                The integration of RL with traditional computational methods like molecular dynamics and quantum chemistry shows particular promise for advancing our understanding of protein behavior.
               </p>
             </div>
           </article>
@@ -100,7 +94,7 @@ export default function Blog() {
         </main>
 
 
-      </div>
-    </div>
-  );
+       </div>
+     </div>
+   );
 }
