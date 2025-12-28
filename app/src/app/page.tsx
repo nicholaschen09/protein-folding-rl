@@ -6,7 +6,7 @@ export default function Blog() {
       <div className="max-w-xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-3xl font-bold text-[#f8f9fc] mb-3 tracking-tight">Mini AlphaFold</h1>
+          <h1 className="text-3xl font-bold text-[#f8f9fc] mb-3 tracking-tight">mini alphafold</h1>
           <p className="text-base text-[#b2bbc5] leading-relaxed font-medium">Advances in reinforcement learning for protein structure prediction</p>
         </header>
 
