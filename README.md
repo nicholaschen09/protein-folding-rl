@@ -1,4 +1,4 @@
-# Protein Folding with Reinforcement Learning
+# mini AlphaFold
 
 ## Setup Guide
 
